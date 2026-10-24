@@ -48,3 +48,18 @@ pytest
 ## License
 
 MIT © [Abdullah Azmi](https://abdullahazmi.com)
+
+
+## CLI Diagnostics & Invariant Verification
+
+Run the built-in deterministic diagnostic probe and invariant self-check directly via the module CLI:
+
+```bash
+PYTHONPATH=src python -m bitboard_chess --self-test --json
+```
+
+Run the complete regression test suite:
+
+```bash
+PYTHONPATH=src pytest -q
+```
